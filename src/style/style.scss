@@ -1,0 +1,254 @@
+//Variable's
+  $font-stack:    Helvetica, sans-serif;
+  $primary-color: #333;
+  $sub-color:#fff;
+  $main-background: #f7f7f7;
+//End Variable's
+
+// Main structure
+  * {
+      h1,h2,h3,h4,h5,h6 {
+        font-family: $font-stack;
+      }
+      a {
+        color: $primary-color;
+        font-weight: bolder;
+      }
+      a:link {
+        text-decoration: none;
+      }
+  }
+
+  #main-container {
+    background-color: $main-background;
+  }
+
+  .center-container {
+    width: 1440px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  header {
+    width: 100%;
+    background-color: $sub-color;
+
+    #sub-nav {
+      background-color: #0084ff;
+      span {
+        color: #fff;
+        text-align: center;
+      }
+
+      .sub-nav-box {
+        background-color: #0084ff;
+      }
+      .sub-nav-box .row {
+        margin-top: 10px;
+      }
+
+      .acc-box {
+        background-color: #0c99ff;
+      }
+    }
+
+    #main-nav{
+    }
+  }
+
+
+  section {
+    margin-bottom: 100px;
+
+    .wallpaper-box{
+      margin-bottom: 100px;
+      height: 500px;
+      background-image: url("https://www.magalpress.ps/wp-content/uploads/2018/02/1-210.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+
+      button{
+        position: absolute;
+        bottom: 30px;
+        left: 75px;
+      }
+    }
+
+    .text-box-content {
+      margin-top: 50px;
+      border-bottom: 1px solid #b2b2b2;
+    }
+
+    .map-box{
+      margin-top: 50px;
+      width: 100%;
+
+      .map-img-box {
+        height: 250px;
+        background-image: url('https://staticmapmaker.com/img/google.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        button {
+          background-color: white;
+          margin-top: 40%;
+          color: #000;
+        }
+      }
+    }
+    .contact-info-box {
+      margin-top: 50px;
+      div p:first-child {
+        font-weight: bolder;
+      }
+      div p {
+        font-size: 12px;
+      }
+    }
+
+    .ads-area {
+      .ads {
+        height: 200px;
+        width: 100%;
+        background-color: #b2adb1;
+        margin-top: 15px;
+      }
+
+    }
+
+    .helper-link-list {
+      padding: 0px;
+      list-style: none;
+
+      .helper-link-item {
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+        border-bottom: 1px solid #b2b2b2;
+
+      }
+    }
+
+  }
+
+  aside {
+
+    .aside-container {
+      margin-top: 50px;
+
+      .header-list-item p{
+        display: block;
+        padding: 5px;
+      }
+
+
+      .body-list-item .list-item{
+        display: block;
+        height: 50px ;
+        border-bottom: 1px solid #cdcdcd;
+        padding: 5px;
+      }
+
+
+      .body-list-item .list-item:last-child{
+        border-bottom: none;
+      }
+
+      .testimonials-box {
+        margin-top:  50px;
+
+        .label-text {
+          font-size: 13px;
+        }
+
+        .content-text {
+          font-size: 12px;
+        }
+
+        .author {
+          float:right;
+        }
+      }
+
+      .contactUs-box {
+        margin-top: 100px;
+
+        .contact-label {
+          font-weight: bolder;
+        }
+
+      }
+      .follow-us-box {
+
+        margin-top: 100px;
+
+        .list-item {
+          width: 100%;
+          border: none;
+          margin-bottom: 3px;
+          padding: 15px;
+          background-color: white;
+
+        }
+
+      }
+    }
+
+  }
+
+  footer {
+    margin-top: 100px;
+
+    .footer-list-item {
+      font-size: 13px;
+      text-align: left;
+      font-weight: lighter;
+      a {
+        padding: 0;
+      }
+    }
+
+    .footer-links-row {
+      background-color: white;
+      border-bottom: 1px solid #d6d6d6;
+      border-top: 1px solid #d6d6d6;
+      ul {
+        margin-top: 12px;
+
+      }
+    }
+
+    .footer-brands-row {
+      background-color: white;
+      border-bottom: 1px solid #d6d6d6;
+
+      .footer-brands-col {
+        margin-top: 15px;
+      }
+
+      ul {
+        margin-top: 12px;
+
+      }
+    }
+
+    .footer-copyright-row {
+      background-color: white;
+      border-bottom: 1px solid #d6d6d6;
+
+      p {
+        margin-top: 15px;
+        font-size: 13px;
+      }
+    }
+  }
+
+  .side-block {
+    max-width: 80px;
+    background-color: #b6b6b6;
+  }
+
+//Importing Files
+@import 'media-quary';
+@import 'ui-structure';
+@import 'animation';

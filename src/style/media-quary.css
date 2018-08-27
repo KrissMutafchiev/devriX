@@ -1,0 +1,14 @@
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* All device's to 1560px  */
+@media only screen and (max-width: 1560px) {
+  .side-block {
+    display: none; }
+
+  .center-container {
+    width: 0px; } }
+
+/*# sourceMappingURL=media-quary.css.map */

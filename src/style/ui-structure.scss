@@ -1,0 +1,42 @@
+#nav-item-list{
+
+  .nav-item {
+    color: $primary-color;
+    display:inline-block;
+    margin: 5px 25px 5px 25px ;
+    float: right;
+  }
+
+  .burger-btn {
+    font-size:30px;
+    cursor:pointer
+  }
+}
+
+.sidenav {
+  height: auto;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 1s;
+  padding-top: 60px;
+
+  .list-group{
+    margin-top: 50px;
+  }
+
+  .body-list-item .list-item{
+    display: block;
+    height: 50px ;
+    border-bottom: 1px solid #cdcdcd;
+    padding: 5px;
+  }
+}
+
+.fog-element {
+  position: absolute;
+  background-color: #ffffffba;
+}
